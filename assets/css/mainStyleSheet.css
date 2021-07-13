@@ -1,0 +1,60 @@
+body
+{
+    background-color: aqua;
+    font-family: 'Courier New', Courier, monospace;
+}
+form
+{
+      
+    position: relative;
+    top:150px;
+    right:-50%;
+}
+input:hover
+{
+    
+    background-color: yellow;
+}
+#mainImage
+{
+
+    position: relative;
+    top:100px;
+    right:-50%;
+}
+section
+{
+
+background-color: yellow;
+height: 1000px;
+width: 100%;
+
+
+}
+header
+{
+    
+    left:0px;
+    width: 100%;
+    position:fixed;
+    top:0px;
+    background-color: orange;
+    z-index:1;
+    
+}
+
+li
+{
+
+    display: inline;
+
+}
+footer
+{
+    left:0px;
+    width: 100%;
+    position:fixed;
+    bottom:0px;
+    background-color: orange;
+    z-index:1;
+}
