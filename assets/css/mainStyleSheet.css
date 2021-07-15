@@ -2,8 +2,44 @@ body
 {
     background-color: aqua;
     font-family: 'Courier New', Courier, monospace;
+    background-image: linear-gradient(to bottom,black,rgb(21, 0, 36),rgb(34, 0, 184),rgb(0, 51, 192),rgb(153, 0, 145));
+    
 
 }
+/*non specific style to elements */
+a
+{
+    font-size: 20px;
+    font-weight: bold;
+}
+li
+{
+  
+    display: inline;
+        
+}
+
+h1
+{
+    color: linen;
+    display: inline;
+    position: relative;
+    left: 5%;
+}
+h2
+{
+
+    color: linen;
+
+}
+h3
+{
+
+    display: inline;
+    color: linen;
+
+}
+
 
 header
 {
@@ -12,28 +48,20 @@ header
     top:0px;
     width: 100%;
     position:fixed;
-    background-color: orange;
+    border-radius: 0px 0px 20px 20px;
+    border-style: solid;
+    border-color: rgb(0, 225, 255);
+    background-color:black;
     z-index:1;
 }
 #navBar
 {  
     position: relative;
+    top:0px;
     float: right;
+    height: 0px;
     right: 5%;
 }
-
-li
-{
-    display: inline;
-}
-
-h1
-{
-    display: inline;
-    margin:5px;
-}
-
-
 
 section
 {
@@ -41,11 +69,12 @@ section
     width: auto;    
     padding: 20px;
     margin: 20px;
-    border-color: black;
+    border-color:rgb(0, 225, 255);
     border-width: 2px;
     border-style: solid;
     border-radius: 10px;
-    background-color: yellow;
+    background-color: rgba(0, 0, 0, 0.527);
+    
 }
 
 .gridHolder
@@ -64,10 +93,11 @@ section
     
     display: inline;
     position: relative;
-    height: 100%;
-    width: 100%;
+    height: auto;
+    width: auto;
     align-self: center;
-    background-color: darkgreen;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.055);
     
 }
 
@@ -75,21 +105,22 @@ section
 {
     position: relative;
     width: 45%;
-    height: auto;
+    height: 300px;
     float: left;
     margin:5px;
-    border-color: black;
-    border-width: 2px;
-    border-style: solid;
-    background-color:black;
+   
+    
 }
+/* The image element of the imageHolder element */
 #imageHolder > img
 {
-
+    
+    border-radius: 10px;
     width: 100%;
     height: auto;
 
 }
+
 #content
 {
     position: relative;
@@ -97,18 +128,54 @@ section
     height:300px;
     float: right;
     margin:5px;
-    border-color: black;
-    border-width: 2px;
-    border-style: solid;
-    overflow: scroll;
+    overflow: auto;
+    
    
+}
+/* modify the scroll bar */
+::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+   ::-webkit-scrollbar-track {
+    background: #000000;
+  }
+  
+    ::-webkit-scrollbar-thumb {
+    background: rgb(255, 1, 255);
+  }
+  
+    ::-webkit-scrollbar-thumb:hover {
+    background: rgb(0, 225, 255);
+  }
+#content > p
+{
+    margin: 5px;
+    color: blanchedalmond;
+    font-size: 18px;
+
 }
 
 footer
 {
+    position:fixed;
     left:0px;
     width: 100%;
-    height: auto;
+    height: 30px;
     bottom:0px;
-    background-color: orange;    
+    border-style: solid;
+    border-color: rgb(0, 225, 255);
+    background-color:black;
+    z-index:1;
+        
+}
+#contact
+{
+
+    position: relative;
+    float: right;
+    bottom: 10px;
+    right: 5%;
+    color: blanchedalmond;
+
 }
