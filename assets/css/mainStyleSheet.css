@@ -112,7 +112,7 @@ section
     
 }
 /* The image element of the imageHolder element */
-#imageHolder > img
+.imageStyle
 {
     
     border-radius: 10px;
