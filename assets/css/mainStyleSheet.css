@@ -103,9 +103,11 @@ section
 
 #imageHolder
 {
+    
+    
     position: relative;
     width: 45%;
-    height: 300px;
+    height: auto;
     float: left;
     margin:5px;
    
